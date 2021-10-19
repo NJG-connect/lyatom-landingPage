@@ -1,0 +1,33 @@
+{ "title": "Fonctionnalités",
+  "subtile": "Expérimentez l’instantanée",
+  "features":[
+  {
+    "icon": "edit.png",
+    "iconColor": "#FFCC40",
+    "title": "Édition aisée",
+    "description":
+      "Editez votre site depuis de simple formulaire, importez vos images..."
+  },
+  {
+    "icon": "screen.png",
+    "iconColor": "#25D9D9",
+    "title": "Full Device",
+    "description":
+      "Ordinateur, Tablette, Mobile, accédez à votre panel de controle depuis n’importe quel device."
+  },
+  {
+    "icon": "panel.png",
+    "iconColor": "#0898E7",
+    "title": "Panel de contrôle",
+    "description":
+      "Editez, ordonnez, modifiez votre contenu depuis le panel d’administration"
+  },
+  {
+    "icon": "disk.png",
+    "iconColor": "#FF9066",
+    "title": "Sauvegarde auto",
+    "description":
+      "Profitez d’un système de versionning vous permettant de revenir sur une version précédente"
+  }
+]
+}

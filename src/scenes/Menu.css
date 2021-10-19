@@ -1,0 +1,29 @@
+/* MENU */
+
+.menuContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 170px;
+  background-color: #f6f8fb;
+  padding: 0 100px;
+}
+
+.menuLyatomIMG {
+  object-fit: contain;
+  height: 100px;
+  width: auto;
+}
+
+.menuNJGConnectIMG {
+  object-fit: contain;
+  height: auto;
+  width: 100px;
+}
+
+@media screen and (max-width: 1100px) {
+  .menuContent {
+    padding: 0 15px;
+  }
+}

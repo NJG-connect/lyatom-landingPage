@@ -1,0 +1,8 @@
+{
+  "title": "Packs",
+  "subtile":"Offres",
+  "offer" : [
+    {"image": "img1.png", "description": "Nous intégrons Lyatom CMS à votre site actuel, design identique, le panel de contröle en plus", "price": "Dès 950€"},
+    {"image": "img2.png", "description": "Dites nous votre besoin, nos équipes vous design une maquette et vous l’intègre", "price": "Dès 1200€"}
+  ]
+}

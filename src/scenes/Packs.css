@@ -1,0 +1,60 @@
+.pack {
+  background-color: #f6f8fb;
+  padding-bottom: 40px;
+}
+.titleInfoPacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f8fb;
+}
+
+.contentPacks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f6f8fb;
+  overflow-x: auto;
+}
+.contentCardPack {
+  width: 275px;
+  min-width: 255px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fff;
+  padding: 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin: 0 20px 10px;
+}
+.imgCardPack {
+  width: 100%;
+  height: auto;
+}
+
+.cardInfoPack {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.infoCardPack {
+  color: #02073e;
+  font-weight: 800;
+  font-size: 14px;
+}
+.priceCardPack {
+  color: #c72026;
+  font-weight: 800;
+  font-size: 14px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .contentPacks {
+    justify-content: flex-start;
+  }
+  .contentCardPack {
+    margin: 0 10px 10px;
+  }
+}

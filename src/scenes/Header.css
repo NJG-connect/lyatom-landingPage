@@ -1,0 +1,154 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 0 100px 50px;
+  background-color: #f6f8fb;
+}
+
+.headerLeftContent {
+  flex: 0.6;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headerRightContent {
+  flex: 0.5;
+}
+
+.headerTitle {
+  font-size: 36px;
+  max-width: 500px;
+  font-weight: bold;
+}
+
+.headerSubtitle {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.headerButtonContent {
+  width: 100%;
+  height: 55px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.inputInfo {
+  border: none;
+  outline: none;
+  box-shadow: 0px 10px 50px rgb(48 98 145 / 8%);
+  height: 53px;
+  padding: 0 25px;
+  font-size: 16px;
+  width: 50%;
+  max-width: 200px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.headerButton:hover {
+  background-color: #0f2137;
+  cursor: pointer;
+}
+
+.headerButton {
+  font-size: 16px;
+  width: 180px;
+  height: 53px;
+  background-color: #8d448b;
+  color: #fff;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.headerSponsorContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headerSponsorText {
+  font-size: 16px;
+  font-weight: bold;
+  color: #566272;
+  opacity: 0.6;
+  flex: 0.2;
+}
+
+.headerSponsorDivImg {
+  flex: 0.7;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.headerSponsorImg {
+  object-fit: contain;
+  height: 60px;
+  width: auto;
+  /* flex: 0.5; */
+}
+
+.headerIMG {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: darken;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 1100px) {
+  .header {
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .headerRightContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .headerIMG {
+    max-width: 600px;
+    height: auto;
+  }
+
+  .headerTitle {
+    font-size: 24px;
+  }
+
+  .headerSubtitle {
+    font-size: 17px;
+  }
+
+  .headerSponsorDivImg {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .headerSponsorContent {
+    flex-direction: column;
+  }
+}

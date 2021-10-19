@@ -1,0 +1,23 @@
+footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.iconFooter {
+  object-fit: contain;
+  height: auto;
+  width: 100px;
+  margin-right: 20px;
+}
+.textFooter {
+  font-size: 15px;
+  color: #0f2137;
+  opacity: 0.6;
+}
