@@ -7,6 +7,8 @@
 
 <br />
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/509f7f78-9590-4a96-9f84-1dc058bad16f/deploy-status)](https://app.netlify.com/sites/competent-wright-0e9e1c/deploys)
+
 ## Présentation Projet
 
 Ceci est notre site vitrine, _landing page_ concernant LyatomCMS.
