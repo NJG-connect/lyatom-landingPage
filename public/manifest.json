@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LyatomCMS",
+  "name": "LyatomCMS",
+  "description": "LyatomCMS est un CMS qui permet aux utilisateurs par un moyen simple de modifier et d'ajouter du contenu directement sur leurs site",
   "icons": [
     {
       "src": "favicon.ico",

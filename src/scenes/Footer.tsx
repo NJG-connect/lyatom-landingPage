@@ -8,7 +8,11 @@ function Footer() {
       <img
         className="iconFooter"
         alt="LyatomCMS"
-        src={require(`../assets/images/logo/${footerJson.logo}`).default}
+        src={
+          footerJson.logo
+            ? require("../assets/images/logo/" + footerJson.logo).default
+            : undefined
+        }
       />
       <p className="textFooter">{footerJson.info}</p>
     </footer>
