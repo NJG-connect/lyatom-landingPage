@@ -49,7 +49,7 @@ function Interressed() {
               updateInupt("emailOrPhone", ev.target.value)
             }
             value={info.emailOrPhone}
-            name="tel"
+            name="phone"
             className="inputInfo wantedInput"
           />
         </div>

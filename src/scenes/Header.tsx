@@ -53,7 +53,7 @@ function Header() {
               updateInupt("emailOrPhone", ev.target.value)
             }
             value={info.emailOrPhone}
-            name="tel"
+            name="phone"
             className="inputInfo"
           />
           <div className="headerButton" onClick={sendInfo}>
