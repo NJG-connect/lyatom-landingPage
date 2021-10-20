@@ -43,7 +43,7 @@ function Interressed() {
             c’est promis !
           </p>
           <input
-            placeholder="Téléphone / E-mail"
+            placeholder="Téléphone"
             type="tel"
             onChange={(ev: React.ChangeEvent<HTMLInputElement>): void =>
               updateInupt("emailOrPhone", ev.target.value)

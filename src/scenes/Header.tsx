@@ -47,7 +47,7 @@ function Header() {
         </h2>
         <div className="headerButtonContent">
           <input
-            placeholder="Téléphone / E-mail"
+            placeholder="Téléphone"
             type="tel"
             onChange={(ev: React.ChangeEvent<HTMLInputElement>): void =>
               updateInupt("emailOrPhone", ev.target.value)
